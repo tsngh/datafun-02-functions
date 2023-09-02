@@ -1,0 +1,25 @@
+2023-09-02 16:12:47,112.user_math_tsingh.INFO ==================================================
+2023-09-02 16:12:47,113.user_math_tsingh.INFO Today is 2023-09-02 at 04:12 PM
+2023-09-02 16:12:47,200.user_math_tsingh.INFO Running on: nt Windows 10
+2023-09-02 16:12:47,201.user_math_tsingh.INFO Python version:  3.11.4
+2023-09-02 16:12:47,201.user_math_tsingh.INFO Python path: C:\Users\Admin\AppData\Local\Programs\Python\Python311
+2023-09-02 16:12:47,202.user_math_tsingh.INFO Working dir: C:\Users\Admin\Documents\MS DATA Analytics\440608\Week2\Week2Repo\datafun-02-functions
+2023-09-02 16:12:47,203.user_math_tsingh.INFO ==================================================
+2023-09-02 16:12:47,225.user_math_tsingh.INFO Explore some functions in the math module
+2023-09-02 16:12:47,225.user_math_tsingh.INFO math.comb(5,1) = 5
+2023-09-02 16:12:47,226.user_math_tsingh.INFO math.perm(5,1) = 5
+2023-09-02 16:12:47,226.user_math_tsingh.INFO math.comb(5,3) = 10
+2023-09-02 16:12:47,228.user_math_tsingh.INFO math.perm(5,3) = 60
+2023-09-02 16:12:47,229.user_math_tsingh.INFO math.pi = 3.141592653589793
+2023-09-02 16:12:47,229.user_math_tsingh.INFO math.degrees(2 * math.pi) = 360.0
+2023-09-02 16:12:47,230.user_math_tsingh.INFO math.radians(180)         = 3.141592653589793
+2023-09-02 16:12:47,230.user_math_tsingh.INFO 
+2023-09-02 16:12:47,231.user_math_tsingh.INFO TRY: Call area_of_country() function with a different values.
+2023-09-02 16:12:47,231.user_math_tsingh.INFO The area of the country is 37500
+2023-09-02 16:12:47,232.user_math_tsingh.INFO The area of the country is 15000
+2023-09-02 16:12:47,233.user_math_tsingh.INFO The area of the country is 20000
+2023-09-02 16:12:47,234.user_math_tsingh.INFO 
+2023-09-02 16:12:47,234.user_math_tsingh.INFO TRY: Call area_of_country() function with exact values
+2023-09-02 16:12:47,235.user_math_tsingh.INFO 
+2023-09-02 16:12:47,235.user_math_tsingh.INFO TRY: Call country_annual_temp_average() funtion with average annual temperature (F) over a year
+2023-09-02 16:12:47,236.user_math_tsingh.INFO country_annual_temp_average   = 63.60
