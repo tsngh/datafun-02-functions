@@ -66,8 +66,8 @@ logger.info("")
 
 #1
 logger.info("TRY: Call area_of_country() function with exact values")
-exact_area = [25000.23]
-print(math.ceil(25000.23))
+exact_area = [250.23]
+print(math.ceil(250.23))
 logger.info("")
 
 #2
@@ -77,8 +77,9 @@ country_annual_temp_average = (sum(greece_temps)/len(greece_temps))
 logger.info(f"country_annual_temp_average   = {country_annual_temp_average:.2f}")
 
 #3
-logger.info("TRY: Call get_country_areas_given_list() function with a list that may include BAD values")
+logger.info("TRY: Call country_areas_given_list() function with a list that may include BAD values")
 bad_list = [-500, 0, math.inf, '30']
-get_country_areas_given_list= (bad_list) 
+country_areas_given_list=(bad_list)
+logger.info( "")
 
-print("Done. Please check the log file for more details.")
+print('Done.')
