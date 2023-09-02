@@ -1,0 +1,26 @@
+2023-09-02 16:29:34,005.user_math_tsngh.INFO ==================================================
+2023-09-02 16:29:34,006.user_math_tsngh.INFO Today is 2023-09-02 at 04:29 PM
+2023-09-02 16:29:34,042.user_math_tsngh.INFO Running on: nt Windows 10
+2023-09-02 16:29:34,042.user_math_tsngh.INFO Python version:  3.11.4
+2023-09-02 16:29:34,043.user_math_tsngh.INFO Python path: C:\Users\Admin\AppData\Local\Programs\Python\Python311
+2023-09-02 16:29:34,044.user_math_tsngh.INFO Working dir: C:\Users\Admin\Documents\MS DATA Analytics\440608\Week2\Week2Repo\datafun-02-functions
+2023-09-02 16:29:34,044.user_math_tsngh.INFO ==================================================
+2023-09-02 16:29:34,053.user_math_tsngh.INFO Explore some functions in the math module
+2023-09-02 16:29:34,053.user_math_tsngh.INFO math.comb(5,1) = 5
+2023-09-02 16:29:34,054.user_math_tsngh.INFO math.perm(5,1) = 5
+2023-09-02 16:29:34,054.user_math_tsngh.INFO math.comb(5,3) = 10
+2023-09-02 16:29:34,055.user_math_tsngh.INFO math.perm(5,3) = 60
+2023-09-02 16:29:34,055.user_math_tsngh.INFO math.pi = 3.141592653589793
+2023-09-02 16:29:34,055.user_math_tsngh.INFO math.degrees(2 * math.pi) = 360.0
+2023-09-02 16:29:34,056.user_math_tsngh.INFO math.radians(180)         = 3.141592653589793
+2023-09-02 16:29:34,056.user_math_tsngh.INFO 
+2023-09-02 16:29:34,056.user_math_tsngh.INFO TRY: Call area_of_country() function with a different values.
+2023-09-02 16:29:34,057.user_math_tsngh.INFO The area of the country is 37500
+2023-09-02 16:29:34,057.user_math_tsngh.INFO The area of the country is 15000
+2023-09-02 16:29:34,057.user_math_tsngh.INFO The area of the country is 20000
+2023-09-02 16:29:34,057.user_math_tsngh.INFO 
+2023-09-02 16:29:34,058.user_math_tsngh.INFO TRY: Call area_of_country() function with exact values
+2023-09-02 16:29:34,058.user_math_tsngh.INFO 
+2023-09-02 16:29:34,058.user_math_tsngh.INFO TRY: Call country_annual_temp_average() funtion with average annual temperature (F) over a year
+2023-09-02 16:29:34,058.user_math_tsngh.INFO country_annual_temp_average   = 63.60
+2023-09-02 16:29:34,059.user_math_tsngh.INFO TRY: Call get_country_areas_given_list() function with a list that may include BAD values
