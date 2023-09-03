@@ -17,3 +17,5 @@ import statistics
 import sys
 
 # univariant data (one variable, many readings)
+
+age_data = [19, 23, 63, 22, 19, 25, 35, 40, 20, 6 ]
