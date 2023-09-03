@@ -46,7 +46,42 @@ logger, logname = setup_logger(__file__)
 # TODO: Log each time the function is called (along with its arguments)
 # TODO: Log the result of each function just before you return the result
 
+def sum_two(first,second):
+    logger.info(f"CALLing sum_two{first,second}")
+    result = first + second
 
+    logger.info(f"The sum is {result}")
+    return result
+
+def sum_any_using_args(*args):
+    logger.info(f"CALLING sum_any_using_args {args}")
+
+    result = sum(args)
+    for x in args:
+        result += x
+
+    logger.info(f"The result is {result}")
+    return result
+
+def sum_any_with_keyword_arguments_kwargs(**kwargs):
+    logger.info(f"CALLING sum_any_using_args {kwargs}")
+
+    result = sum(kwargs.values())
+    for value in kwargs.values():  
+        result += value
+    logger.info(f"The result is {result}")
+
+    return result
+
+def sum_rectangle_list(list):
+    logger.info (f"CALLING sum_rectangle_list {list}")
+
+    result = sum(list)
+    for value in list:
+        result = result + value
+
+    logger.info(f"The result is {result}")
+    return result
 
 
 # TODO: Fix this function to get just the first 3 letters (possibly reversed)
@@ -78,7 +113,11 @@ if __name__ == "__main__":
     # Call some functions and execute code!
     # Nothing below here needs to change
     # -------------------------------------------------------------
-
+    sum_two(1,2)
+    sum_two("hello", "world")
+    sum_rectangle_list([1,1,3,3])
+    sum_any_using_args(1,1,1,2)
+    sum_any_with_keyword_arguments_kwargs(a=1, b= 2, c=3)
     transform_using_keyword_args_with_default_values()
     transform_using_keyword_args_with_default_values(reverse=True)
     transform_using_keyword_args_with_default_values(input="hello", reverse=True)

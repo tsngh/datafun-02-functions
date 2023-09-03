@@ -1,0 +1,44 @@
+2023-09-03 09:18:08,456.xtra_p2.INFO ==================================================
+2023-09-03 09:18:08,456.xtra_p2.INFO Today is 2023-09-03 at 09:18 AM
+2023-09-03 09:18:08,519.xtra_p2.INFO Running on: nt Windows 10
+2023-09-03 09:18:08,519.xtra_p2.INFO Python version:  3.11.4
+2023-09-03 09:18:08,519.xtra_p2.INFO Python path: C:\Users\Admin\AppData\Local\Programs\Python\Python311
+2023-09-03 09:18:08,519.xtra_p2.INFO Working dir: C:\Users\Admin\Documents\MS DATA Analytics\440608\Week2\Week2Repo\datafun-02-functions
+2023-09-03 09:18:08,519.xtra_p2.INFO ==================================================
+2023-09-03 09:18:08,521.xtra_p2.INFO CALLing sum_two(1, 2)
+2023-09-03 09:18:08,521.xtra_p2.INFO The sum is 3
+2023-09-03 09:18:08,521.xtra_p2.INFO CALLing sum_two('hello', 'world')
+2023-09-03 09:18:08,521.xtra_p2.INFO The sum is helloworld
+2023-09-03 09:18:08,521.xtra_p2.INFO CALLING sum_rectangle_list [1, 1, 3, 3]
+2023-09-03 09:18:08,523.xtra_p2.INFO The result is 16
+2023-09-03 09:18:08,523.xtra_p2.INFO CALLING sum_any_using_args (1, 1, 1, 2)
+2023-09-03 09:18:08,523.xtra_p2.INFO The result is 10
+2023-09-03 09:18:08,523.xtra_p2.INFO CALLING sum_any_using_args {'a': 1, 'b': 2, 'c': 3}
+2023-09-03 09:18:08,525.xtra_p2.INFO The result is 12
+2023-09-03 09:18:08,525.xtra_p2.INFO CALLING transform_using_keyword_args_with_default_values(input=bearcat, reverse=False)
+2023-09-03 09:18:08,527.xtra_p2.INFO RETURNING aeb
+2023-09-03 09:18:08,527.xtra_p2.INFO CALLING transform_using_keyword_args_with_default_values(input=bearcat, reverse=True)
+2023-09-03 09:18:08,527.xtra_p2.INFO RETURNING aeb
+2023-09-03 09:18:08,527.xtra_p2.INFO CALLING transform_using_keyword_args_with_default_values(input=hello, reverse=True)
+2023-09-03 09:18:08,529.xtra_p2.INFO RETURNING leh
+2023-09-03 09:18:08,529.xtra_p2.INFO ===========================================================
+2023-09-03 09:18:08,529.xtra_p2.INFO Running doctest.testmod() function to unit test our code
+2023-09-03 09:18:08,530.xtra_p2.INFO ===========================================================
+2023-09-03 09:18:08,533.xtra_p2.INFO CALLing sum_two(1, 2)
+2023-09-03 09:18:08,534.xtra_p2.INFO The sum is 3
+2023-09-03 09:18:08,535.xtra_p2.INFO CALLing sum_two('hello', ' world')
+2023-09-03 09:18:08,536.xtra_p2.INFO The sum is hello world
+2023-09-03 09:18:08,536.xtra_p2.INFO CALLING sum_rectangle_list [1, 1, 3, 3]
+2023-09-03 09:18:08,536.xtra_p2.INFO The result is 16
+2023-09-03 09:18:08,541.xtra_p2.INFO CALLING transform_using_keyword_args_with_default_values(input=bearcat, reverse=False)
+2023-09-03 09:18:08,541.xtra_p2.INFO RETURNING aeb
+2023-09-03 09:18:08,543.xtra_p2.INFO CALLING transform_using_keyword_args_with_default_values(input=bearcat, reverse=True)
+2023-09-03 09:18:08,545.xtra_p2.INFO RETURNING aeb
+2023-09-03 09:18:08,545.xtra_p2.INFO CALLING transform_using_keyword_args_with_default_values(input=hello, reverse=True)
+2023-09-03 09:18:08,545.xtra_p2.INFO RETURNING leh
+2023-09-03 09:18:08,546.xtra_p2.INFO CALLING sum_any_using_args (1, 1, 1, 2)
+2023-09-03 09:18:08,546.xtra_p2.INFO The result is 10
+2023-09-03 09:18:08,547.xtra_p2.INFO CALLING sum_any_using_args {'a': 1, 'b': 2, 'c': 3}
+2023-09-03 09:18:08,547.xtra_p2.INFO The result is 12
+2023-09-03 09:18:08,559.xtra_p2.ERROR 4 tests failed!
+2023-09-03 09:18:08,561.xtra_p2.INFO Script complete. More info in the log file.
