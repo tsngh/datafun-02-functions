@@ -151,12 +151,24 @@ if __name__ == "__main__":
     
     object3 = NumericSeries(name3, units3, data3)
 
+# Create another object 
+
+    # use range() to create a list of values from 7 to 10
+    # list() converts the range object to a list
+    # range() is a generator - it creates a sequence of numbers without storing them in memory
+    # The arguments in range are from (inclusive) and to (exclusive)
+    data4 = list(range(7,11))    
+    name4 = "Quiz Scores Module 4"
+    units4 = "pts"
+    
+    object4 = NumericSeries(name4, units4, data4)
     # log the objects created
     logger.info(f"Created: {object1}")
     logger.info(f"Created: {object2}")
     logger.info(f"Created: {object3}")
+    logger.info(f"Created: {object4}")
 
-    object_list = [object1, object2, object3]
+    object_list = [object1, object2, object3, object4]
 
     # Loop through our objects and get some statistics
     # Rather than using a built-in function and passing in our data

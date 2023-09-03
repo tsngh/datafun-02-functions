@@ -1,0 +1,22 @@
+2023-09-02 19:42:55,486.user_easy_stats_tsngh.INFO ==================================================
+2023-09-02 19:42:55,487.user_easy_stats_tsngh.INFO Today is 2023-09-02 at 07:42 PM
+2023-09-02 19:42:55,522.user_easy_stats_tsngh.INFO Running on: nt Windows 10
+2023-09-02 19:42:55,523.user_easy_stats_tsngh.INFO Python version:  3.11.4
+2023-09-02 19:42:55,523.user_easy_stats_tsngh.INFO Python path: C:\Users\Admin\AppData\Local\Programs\Python\Python311
+2023-09-02 19:42:55,523.user_easy_stats_tsngh.INFO Working dir: C:\Users\Admin\Documents\MS DATA Analytics\440608\Week2\Week2Repo\datafun-02-functions
+2023-09-02 19:42:55,524.user_easy_stats_tsngh.INFO ==================================================
+2023-09-02 19:42:55,535.user_easy_stats_tsngh.INFO age_data = [19, 23, 63, 22, 19, 25, 35, 40, 20, 6]
+2023-09-02 19:42:55,536.user_easy_stats_tsngh.INFO mean   = 27.20
+2023-09-02 19:42:55,536.user_easy_stats_tsngh.INFO median = 22.50
+2023-09-02 19:42:55,536.user_easy_stats_tsngh.INFO mode   = 19.00
+2023-09-02 19:42:55,537.user_easy_stats_tsngh.INFO var    =  243.51
+2023-09-02 19:42:55,537.user_easy_stats_tsngh.INFO stdev  =  15.60
+2023-09-02 19:42:55,537.user_easy_stats_tsngh.INFO lowest =  6.00
+2023-09-02 19:42:55,538.user_easy_stats_tsngh.INFO highest=  63.00
+2023-09-02 19:42:55,539.user_easy_stats_tsngh.WARNING Correlation requires Python version 3.10 or greater.
+2023-09-02 19:42:55,540.user_easy_stats_tsngh.WARNING Your version is 3.11
+2023-09-02 19:42:55,541.user_easy_stats_tsngh.INFO Here's some time series data:
+2023-09-02 19:42:55,541.user_easy_stats_tsngh.INFO xtimes:[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+2023-09-02 19:42:55,541.user_easy_stats_tsngh.INFO yvalues:[35, 25, 18, 50, 0, 45, 25, 27, 18, 20, 20, 32, 15, 0, 12]
+2023-09-02 19:42:55,542.user_easy_stats_tsngh.INFO correlation between xtimes and xtimes = 1.00
+2023-09-02 19:42:55,542.user_easy_stats_tsngh.INFO correlation between xtimes and yvalues = -0.45
