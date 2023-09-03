@@ -1,0 +1,35 @@
+2023-09-02 20:15:12,683.numeric_series.INFO ==================================================
+2023-09-02 20:15:12,684.numeric_series.INFO Today is 2023-09-02 at 08:15 PM
+2023-09-02 20:15:12,721.numeric_series.INFO Running on: nt Windows 10
+2023-09-02 20:15:12,721.numeric_series.INFO Python version:  3.11.4
+2023-09-02 20:15:12,722.numeric_series.INFO Python path: C:\Users\Admin\AppData\Local\Programs\Python\Python311
+2023-09-02 20:15:12,722.numeric_series.INFO Working dir: C:\Users\Admin\Documents\MS DATA Analytics\440608\Week2\Week2Repo\datafun-02-functions
+2023-09-02 20:15:12,723.numeric_series.INFO ==================================================
+2023-09-02 20:15:12,723.numeric_series.INFO Created: NumericSeries with name=Quiz Scores Module 1, units=pts, and 6 data points: [9, 9, 10, 9, 7, 10]
+2023-09-02 20:15:12,724.numeric_series.INFO Created: NumericSeries with name=Quiz Scores Module 2, units=pts, and 8 data points: [8, 10, 8, 10, 8, 10, 10, 10]
+2023-09-02 20:15:12,724.numeric_series.INFO Created: NumericSeries with name=Quiz Scores Module 3, units=pts, and 4 data points: [7, 8, 9, 10]
+2023-09-02 20:15:12,725.numeric_series.INFO Created: NumericSeries with name=Quiz Scores Module 4, units=pts, and 4 data points: [7, 8, 9, 10]
+2023-09-02 20:15:12,725.numeric_series.INFO NumericSeries with name=Quiz Scores Module 1, units=pts, and 6 data points: [9, 9, 10, 9, 7, 10]
+2023-09-02 20:15:12,726.numeric_series.INFO Count: 6
+2023-09-02 20:15:12,726.numeric_series.INFO Sum: 54
+2023-09-02 20:15:12,726.numeric_series.INFO Mean: 9.0
+2023-09-02 20:15:12,726.numeric_series.INFO Median: 9.0
+2023-09-02 20:15:12,727.numeric_series.INFO ------------------
+2023-09-02 20:15:12,727.numeric_series.INFO NumericSeries with name=Quiz Scores Module 2, units=pts, and 8 data points: [8, 10, 8, 10, 8, 10, 10, 10]
+2023-09-02 20:15:12,727.numeric_series.INFO Count: 8
+2023-09-02 20:15:12,728.numeric_series.INFO Sum: 74
+2023-09-02 20:15:12,728.numeric_series.INFO Mean: 9.25
+2023-09-02 20:15:12,728.numeric_series.INFO Median: 10.0
+2023-09-02 20:15:12,728.numeric_series.INFO ------------------
+2023-09-02 20:15:12,729.numeric_series.INFO NumericSeries with name=Quiz Scores Module 3, units=pts, and 4 data points: [7, 8, 9, 10]
+2023-09-02 20:15:12,729.numeric_series.INFO Count: 4
+2023-09-02 20:15:12,729.numeric_series.INFO Sum: 34
+2023-09-02 20:15:12,730.numeric_series.INFO Mean: 8.5
+2023-09-02 20:15:12,730.numeric_series.INFO Median: 8.5
+2023-09-02 20:15:12,730.numeric_series.INFO ------------------
+2023-09-02 20:15:12,731.numeric_series.INFO NumericSeries with name=Quiz Scores Module 4, units=pts, and 4 data points: [7, 8, 9, 10]
+2023-09-02 20:15:12,731.numeric_series.INFO Count: 4
+2023-09-02 20:15:12,732.numeric_series.INFO Sum: 34
+2023-09-02 20:15:12,732.numeric_series.INFO Mean: 8.5
+2023-09-02 20:15:12,732.numeric_series.INFO Median: 8.5
+2023-09-02 20:15:12,733.numeric_series.INFO ------------------
