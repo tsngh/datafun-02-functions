@@ -47,3 +47,42 @@ logger.info(f"stdev  = {stdev: .2f}")
 logger.info(f"lowest = {lowest: .2f}")
 logger.info(f"highest= {highest: .2f}")
 
+# Descriptive: Univariant Time Series Data.........................
+
+# describe relationships
+# univariant time series data (one variable over time)
+# typically, x (day) is independent and
+# y is dependent on x (e.g. miles biked)
+xday = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+yvalues = [35, 25, 18, 50, 0, 45, 25, 27, 18, 20, 20, 32, 15, 0, 12]
+
+# if the lists are not the same size,
+# log an error and quit the program
+if len(xday) != len(yvalues):
+    logger.error("ERROR: The related sets are not the same size.")
+    logger.error(f"      {len(xday)}!={len(yvalues)}")
+    quit()
+
+# check the Python version before using the correlation function
+logger.warn("Correlation requires Python version 3.10 or greater.")
+logger.warn(f"Your version is {sys.version_info.major}.{sys.version_info.minor}")
+
+# if the Python version is too old, we can quit now
+if sys.version_info.minor < 10:
+    logger.error("Please update Python to 3.10 or greater")
+    logger.error("or use View / Command Palette / Python: Select Interpreter")
+    logger.error("to get a newer one.")
+    quit()
+
+# If we're still here, use the new correlation function from the statistics module
+xx_corr = statistics.correlation(xday, xday)
+xy_corr = statistics.correlation(xday, yvalues)
+
+# log the information
+logger.info("Here's some time series data:")
+logger.info(f"xtimes:{xday}")
+logger.info(f"yvalues:{yvalues}")
+logger.info(f"correlation between xtimes and xtimes = {xx_corr:.2f}")
+logger.info(f"correlation between xtimes and yvalues = {xy_corr:.2f}")
+
+print( 'Done.')
